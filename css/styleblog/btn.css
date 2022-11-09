@@ -1,0 +1,42 @@
+.btn{
+    display: inline-block; 
+
+    text-align: center;
+    cursor: pointer;
+    
+    border: 1px solid transparent;
+    padding: 0.9rem 0.8rem;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    
+}
+.btn__blue{
+    background-color: var(--btn-blue);
+    color: var(--btn-blue-text);
+    margin-right: 1.6rem;
+}
+.btn__blue:hover{
+    background-color: var(--btn-blue-hover);
+    color:var( --btn-blue-text-hover);
+}
+.btn__blue:active{
+    background-color: var(--btn-blue);
+    color: var(--btn-blue-text);
+    border: 1px solid var(--btn-border-active);
+}
+
+.btn__inherit{
+    background-color: var(--btn-inherit);
+    color: var(--btn-inherit-text);
+}
+
+.btn__inherit:hover{
+    background-color: var(--btn-inherit-hover);
+    color: var(--btn-inherit-text-hover);
+}
+
+.btn__inherit:active{
+    background-color: inherit;
+    color:  var(--btn-inherit-text);
+    border: 1px solid var(--btn-inherit-border-active);
+}

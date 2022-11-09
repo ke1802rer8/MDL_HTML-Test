@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container__block">
+        <div class="container__block-one">
+            <h1>Preferences</h1>
+            <p>On this page you can configure the main system parameters available for customization</p>
+        </div>
+        <form id="form" method="POST" class="form">
+            <div class="form__item item">
+                <div class="form__label">Company Title</div>
+                <div class="form__input">
+                    <input id="title" type="text" placeholder="Default" class="input js-title" name="company_title">
+                </div>
+            </div>
+            <section class="form__item item">
+                <div class="form__label">First Day</div>
+                <div id="list" class="wrapper" tabindex="1">
+
+                    <span class="color">Default</span>
+                    <ul class="dropdown" tabindex="1">
+                        <li><a href="#">Monday</a></li>
+                        <li><a href="#">Tuesday</a></li>
+                        <li><a href="#">Wednesday</a></li>
+                        <li><a href="#">Thursday</a></li>
+                        <li><a href="#">Friday</a></li>
+                        <li><a href="#">Saturday</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="form__item item">
+                <div class="form__label">Container Width</div>
+                <div id="list" class="wrapper" tabindex="1">
+                    <span class="color">Default</span>
+                    <ul class="dropdown" tabindex="1">
+                        <li><a href="#">Fixed</a></li>
+                        <li><a href="#">Not Fixed</a></li>
+                    </ul>
+                </div>
+            </section> 
+            <section class="form__item item">
+                <div class="form__label">Homepage</div>
+                <div id="list" class="wrapper" tabindex="1">
+                    <span class="color">Default</span>
+                    <ul class="dropdown" tabindex="1">
+                        <li><a href="#">Starred Projects</a></li>
+                        <li><a href="#">Star Project</a></li>
+                        <li><a href="#">Project</a></li>
+                    </ul>
+                </div>
+            </section> 
+            <div class="form__item item">
+                <div class="form__label">Indent Size</div>
+                <div class="form__input">
+                    <input type="text" name="indent_size" placeholder="Default" class="input js-size ">
+                </div>
+            </div>
+            <div class="form__item item">
+                <div class="form__label">Personal Code</div>
+                <div class="form__input-small">
+                    <input type="text" name="code" class="input js__code"> 
+                    
+                </div>
+                <p class="form__mb">-</p>
+                <div class="form__input-small">
+                    <input type="text" name="code_scnd-window" class="input js__code_scnd-window"> 
+                    
+                </div>
+                <p class="form__mb">-</p>
+                <div class="form__input-small">
+                    <input type="text" name="code_thrd-window" class="input js__code_thrd-window "> 
+                    
+                </div>
+            </div>
+            <div class="form__item">
+                <div class="form__label">Theme</div>
+                <div class="form__label-theme">
+                    <p><label class="form__label"><input class="input__label" type="radio" name="pse" value="light">Light</label></p>
+                    <p><label class="form__label"><input class="input__label" type="radio" name="pse" value="dark">Dark</label></p>
+                </div>
+            </div>
+            <div class="form__button">
+                <button type="button" class="btn btn__blue js-button__click">Apply and Save</button>
+                <button class="btn btn__inherit">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <footer class="footer">
+        <img class="footer__img" src="/img/footer.png" alt="">
+        <div class="footer__container">
+            <p>2020-2022
+                <a href="#">Terms of Service</a> 
+                and
+                <a href="#">Conditions</a></p>
+        </div>     
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/d4346b87e7.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script src="js/addlocal.js"></script>
+</body>
+</html>

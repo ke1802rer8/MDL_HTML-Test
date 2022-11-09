@@ -1,0 +1,67 @@
+@import "reset.css";
+
+@import "styleblog/container.css";
+@import "styleblog/btn.css";
+@import "styleblog/form.css";
+@import "styleblog/footer.css";
+
+
+
+html{
+    font-size: 62.5%;
+   
+}
+
+body {
+    background-color: var(--body-bg);
+    color: var(--title-body-color);
+    line-height: var(--bs-body-line-height);
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+
+:root{
+    --body-bg:#fff;
+    --text-body-color:  #585050;
+    --title-body-color:#0B0A0A;
+    --bg-color-input: #DFDADA;
+    --bg-color-span: #F3F3F3;
+    --bg-color-span-hover: #DFDADA;
+    --bg-color-hover-input: #887C7C;
+    --border-focus:#2A75DB;
+    --btn-blue: #2A75DB;
+    --btn-inherit: inherit;
+    --btn-blue-text: #F8F8F8;
+    --btn-inherit-text: #205EB0;
+    --btn-blue-text-hover: #F8F8F8;
+    --btn-inherit-text-hover:#205EB0;
+    --btn-blue-hover:  #205EB0;
+    --btn-inherit-hover: #DFDADA;
+    --btn-border-active: #AAC9F1;
+    --btn-inherit-border-active: #2A75DB;
+    
+}
+
+:root[data-theme='dark']{
+    --body-bg: #1E1D1D;
+    --title-body-color: #F3F3F3;
+    --text-body-color: #DFDADA;
+    --bg-color-input:  #424242;
+    --bg-color-span:  #424242;
+    --bg-color-span-hover: #585050;
+    --border-focus: #B9D5FC;
+    --btn-blue: #AAC9F1;
+    --btn-inherit: #585050;
+    --btn-blue-text: #1E1D1D;
+    --btn-blue-text-hover: #887C7C;
+    --btn-inherit-text-hover: #AAC9F1;
+    --btn-inherit-text: #AAC9F1;
+    --btn-blue-hover: #B9D5FC;
+    --btn-inherit-hover: #887C7C;
+    --btn-border-active:#F0F6FF;
+    --btn-inherit-border-active: #B9D5FC;
+}
+
+
+

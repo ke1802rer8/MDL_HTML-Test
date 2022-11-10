@@ -40,6 +40,7 @@ body {
     --btn-inherit-hover: #DFDADA;
     --btn-border-active: #AAC9F1;
     --btn-inherit-border-active: #2A75DB;
+    --span-color: #2A75DB;
     
 }
 
@@ -61,6 +62,7 @@ body {
     --btn-inherit-hover: #887C7C;
     --btn-border-active:#F0F6FF;
     --btn-inherit-border-active: #B9D5FC;
+    --span-color:#B9D5FC;
 }
 
 

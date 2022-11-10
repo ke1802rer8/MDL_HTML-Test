@@ -157,11 +157,13 @@
 }
 
 .wrapper.active:after {
-    border-color: #bce5fc transparent;
+    border-color: var(--span-color) transparent;
     border-width: 6px 6px 0 6px ;
     margin-top: -3px;
 }
-
+.active{
+    border: 1px solid var(--span-color);
+}
 
 .no-opacity .wrapper .dropdown,
 .no-pointerevents .wrapper .dropdown {
